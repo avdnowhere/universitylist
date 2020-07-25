@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes';
+import Footer from './components/Footer';
+import NavigationBar from './components/NavigationBar';
+import { FilterProvider } from './components/FilterContext';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<FilterProvider>
+			<div className="page-container">
+				<BrowserRouter>
+					<NavigationBar />
+					<div className="content-wrap">
+						<Routes />
+						<Footer />
+					</div>
+				</BrowserRouter>
+			</div>
+		</FilterProvider>
+	);
 }
 
 export default App;

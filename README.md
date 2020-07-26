@@ -4,7 +4,7 @@ UNIVERSITYLIST.COM is one stop center site that provides up to date and latest i
 
 ## Getting Started
 
-This application required Node.js and Node Package Manager (NPM) to be run.
+This project required Node.js and Node Package Manager (NPM) to be run.
 
 ### Prerequisites
 
@@ -38,8 +38,7 @@ You will also see any lint errors in the console.
 
 ### ESLint
 
-ESLint will find and check problems in the JavaScript code
-
+ESLint will find and check problems in the JavaScript code.<br />
 Run this command to check with ESLint:
 
 ```

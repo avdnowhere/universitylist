@@ -60,6 +60,7 @@ The build is minified and the filenames include the hashes.
 
 * [Create React App](https://github.com/facebook/create-react-app) - React build tools
 * [Material-UI](https://github.com/mui-org/material-ui) - React UI framework
+* [Firebase](https://github.com/firebase/firebase-js-sdk) - Realtime database
 
 ## Authors
 

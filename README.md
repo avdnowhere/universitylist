@@ -25,7 +25,7 @@ After completing the Node.js installation, go to the project directory and run t
 npm install
 ```
 
-2. Run the app in the development mode:
+2. Run the application in the development mode:
 
 ```
 npm start
@@ -47,7 +47,7 @@ npx eslint src/**/*.js src/**/**/*.js src/*.js
 
 ## Deployment
 
-Run this command to builds the app for production:
+Run this command to build the application for production:
 
 ```
 npm run build

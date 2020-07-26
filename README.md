@@ -8,9 +8,8 @@ This application required Node.js and Node Package Manager (NPM) to be run.
 
 ### Prerequisites
 
-Please install Node.js on your computer. NPM will be included once you install Node.js.
-
-You can download it from the link below:
+Please install Node.js on your computer (NPM will be included once you install it).<br/>
+You can download Node.js from the link below:
 
 ```
 http://nodejs.org/download/
@@ -32,10 +31,9 @@ npm install
 npm start
 ```
 
-Open http://localhost:3000 to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.
-
+The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 ### ESLint
@@ -56,8 +54,7 @@ Run this command to builds the app for production:
 npm run build
 ```
 
-It will correctly bundles React in production mode and optimizes the build for the best performance.
-
+It will correctly bundles React in production mode and optimizes the build for the best performance.<br />
 The build is minified and the filenames include the hashes.
 
 ## Built With

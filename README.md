@@ -8,9 +8,7 @@ This application required Node.js and Node Package Manager (NPM) to be run.
 
 ### Prerequisites
 
-Please install Node.js on your computer.
-
-NPM will be included once you install Node.js.
+Please install Node.js on your computer. NPM will be included once you install Node.js.
 
 You can download it from the link below:
 
@@ -39,6 +37,16 @@ Open http://localhost:3000 to view it in the browser.
 The page will reload if you make edits.
 
 You will also see any lint errors in the console.
+
+### ESLint
+
+ESLint will find and check problems in the JavaScript code
+
+Run this command to check with ESLint:
+
+```
+npx eslint src/**/*.js src/**/**/*.js src/*.js
+```
 
 ## Deployment
 

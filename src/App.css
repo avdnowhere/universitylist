@@ -37,10 +37,41 @@
     }
 }
 
-.page-container {
+.pageContainer {
     display: flex;
 }
 
-.content-wrap{
+.contentWrap {
     flex: 1;
+}
+
+.scrollTop {
+    position: fixed; 
+    width: 100%;
+    bottom: 35px;
+    right: 50px;
+    align-items: center;
+    height: 20px;
+    justify-content: center;
+    z-index: 1200;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.8;
+    color: #ffffff;
+    background-color: #f50057;
+    border-radius: 4px;
+}
+  
+.scrollTop:hover {
+    opacity: 1;
+}
+  
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
 }

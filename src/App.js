@@ -5,14 +5,16 @@ import Routes from './routes';
 import Footer from './components/Footer';
 import NavigationBar from './components/NavigationBar';
 import { FilterProvider } from './components/FilterContext';
+import ScrollArrow from './components/ScrollArrow';
 
 function App() {
 	return (
 		<FilterProvider>
-			<div className="page-container">
+			<div className="pageContainer">
 				<BrowserRouter>
 					<NavigationBar />
-					<div className="content-wrap">
+					<ScrollArrow />
+					<div className="contentWrap">
 						<Routes />
 						<Footer />
 					</div>

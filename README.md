@@ -39,7 +39,7 @@ You will also see any lint errors in the console.
 ### ESLint
 
 ESLint will find and check problems in the JavaScript code.<br />
-Run this command to check with ESLint:
+Run this command to check the code with ESLint:
 
 ```
 npx eslint src/**/*.js src/**/**/*.js src/*.js

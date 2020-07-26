@@ -8,7 +8,11 @@ This application required Node.js and Node Package Manager (NPM) to be run.
 
 ### Prerequisites
 
-Please install Node.js on your computer. NPM will be included once you install Node.js. You can download it from link below:
+Please install Node.js on your computer.
+
+NPM will be included once you install Node.js.
+
+You can download it from the link below:
 
 ```
 http://nodejs.org/download/
@@ -63,4 +67,4 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Thanks to all libraries' contributors used on this project
+* Thanks to all libraries' contributors used for this project

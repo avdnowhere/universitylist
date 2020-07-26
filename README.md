@@ -1,87 +1,65 @@
-# Project Title
+# UNIVERSITYLIST.COM
 
-One Paragraph of project description goes here
+UNIVERSITYLIST.COM is one stop center site that provides up to date and latest information about all universities around the world.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This project required Node.js and Node Package Manager (NPM) to be run.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Please install Node.js on your computer, NPM will be included once you install Node.js. You can download from here:
 
 ```
-Give examples
+http://nodejs.org/download/
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+After completed Node.js installation, go to the project directory, then these commands:
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+1. To install all the necessary libraries:
 
 ```
-until finished
+npm install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+2. Run the app in the development mode:
 
 ```
-Give an example
+npm start
 ```
 
-### And coding style tests
+Open http://localhost:3000 to view it in the browser.
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Run this command to builds the app for production:
+
+```
+npm run build
+```
+
+It will correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [Create React App](https://github.com/facebook/create-react-app) - React build tools for modern web app
+* [Material-UI](https://material-ui.com/) - React UI framework
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Ammy Vega Darya** - *Initial work* - [avdnowhere](https://github.com/avdnowhere)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Thanks to all the libraries' contributors used on this project
